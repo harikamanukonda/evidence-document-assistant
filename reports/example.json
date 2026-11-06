@@ -1,0 +1,21 @@
+{
+  "answer": "Application logs are retained for 30 days. Security audit logs are retained for 365 days. The platform team removes expired logs automatically each night. [logs-01]",
+  "abstained": false,
+  "sources": [
+    {
+      "id": "logs-01",
+      "title": "Fictional Operations Handbook / Log retention",
+      "text": "Application logs are retained for 30 days. Security audit logs are retained for 365 days. The platform team removes expired logs automatically each night.",
+      "score": 0.6507
+    }
+  ],
+  "question": "How long are application logs retained?",
+  "method": "TF-IDF cosine retrieval + verbatim extractive response",
+  "evaluation": {
+    "recall_at_3": 1.0,
+    "abstention_accuracy": 0.75,
+    "answerable_cases": 7,
+    "unanswerable_cases": 4,
+    "note": "Small illustrative fixture, not an independent generalization benchmark."
+  }
+}

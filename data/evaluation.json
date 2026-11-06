@@ -1,0 +1,13 @@
+[
+ {"question":"How long are application logs retained?","relevant_ids":["logs-01"]},
+ {"question":"Who approves production access?","relevant_ids":["access-01"]},
+ {"question":"When does temporary access expire?","relevant_ids":["access-01"]},
+ {"question":"How quickly should an on-call engineer acknowledge an incident?","relevant_ids":["incident-01"]},
+ {"question":"How often do database backups run?","relevant_ids":["backup-01"]},
+ {"question":"What evaluation is required before model promotion?","relevant_ids":["release-01"]},
+ {"question":"Can customer records be included in public repositories?","relevant_ids":["privacy-01"]},
+ {"question":"What is the capital of France?","relevant_ids":[]},
+ {"question":"Who won the football championship?","relevant_ids":[]},
+ {"question":"How much does the enterprise subscription cost?","relevant_ids":[]},
+ {"question":"How many vacation days do employees receive?","relevant_ids":[]}
+]

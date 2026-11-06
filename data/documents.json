@@ -1,0 +1,8 @@
+[
+  {"id":"logs-01","title":"Fictional Operations Handbook / Log retention","text":"Application logs are retained for 30 days. Security audit logs are retained for 365 days. The platform team removes expired logs automatically each night."},
+  {"id":"access-01","title":"Fictional Operations Handbook / Access","text":"Production access requires approval from the service owner and completion of security training. Temporary access expires after 24 hours. Access reviews occur every quarter."},
+  {"id":"incident-01","title":"Fictional Operations Handbook / Incidents","text":"For a severity-one incident, the on-call engineer acknowledges the alert within 15 minutes. The incident commander posts updates every 30 minutes until recovery."},
+  {"id":"backup-01","title":"Fictional Operations Handbook / Backups","text":"Database backups run every six hours. Backup recovery is tested monthly. The recovery time objective is four hours and the recovery point objective is six hours."},
+  {"id":"release-01","title":"Fictional ML Handbook / Releases","text":"A candidate model must pass evaluation on a held-out validation set before promotion. Promotion requires a lower mean absolute error than the incumbent and approval by the model owner."},
+  {"id":"privacy-01","title":"Fictional ML Handbook / Data use","text":"Demo datasets must be public or synthetic. Customer records and employee records must not be included in public repositories. Synthetic datasets must be labeled clearly."}
+]
