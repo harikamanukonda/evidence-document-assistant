@@ -1,0 +1,6 @@
+-r requirements.txt
+torch==2.14.1
+transformers==5.20.2
+pillow==12.3.0
+pymupdf==1.28.2
+reportlab==5.1.0

@@ -1,5 +1,12 @@
 # Evidence Document Assistant
 
+## New: Multimodal Document Intelligence
+
+[Explore the multimodal project](multimodal/README.md): PDF/image ingestion, structured table extraction, actual CLIP visual retrieval, text/hybrid comparisons, and an offline source-page viewer with citations and query-word highlights. [Measured evaluation](reports/multimodal-evaluation.json) · [Evidence viewer HTML](reports/multimodal-evidence.html) (download and open locally).
+
+The original lightweight lexical assistant is documented below.
+
+
 ![Interactive dashboard](reports/dashboard.png)
 
 An evidence-first document search application with TF-IDF retrieval, verbatim source passages, stable citations, and explicit abstention. This version is a fully local **retrieval and extraction baseline**, not a generative LLM application.

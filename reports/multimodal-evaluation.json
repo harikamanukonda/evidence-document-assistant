@@ -1,0 +1,167 @@
+{
+  "aggregate": {
+    "text": {
+      "recall_at_1": 1.0,
+      "mrr": 1.0
+    },
+    "visual": {
+      "recall_at_1": 0.8333333333333334,
+      "mrr": 0.9166666666666666
+    },
+    "hybrid": {
+      "recall_at_1": 0.8333333333333334,
+      "mrr": 0.9166666666666666
+    }
+  },
+  "rows": [
+    {
+      "mode": "text",
+      "question": "Which region has the highest on-time delivery rate?",
+      "expected_page": 1,
+      "retrieved_page": 1,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 3.4395123339927522
+    },
+    {
+      "mode": "text",
+      "question": "How many orders did the South region process?",
+      "expected_page": 1,
+      "retrieved_page": 1,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 0.0958870000031311
+    },
+    {
+      "mode": "text",
+      "question": "Which month had the highest electricity usage?",
+      "expected_page": 2,
+      "retrieved_page": 2,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 0.03647754200210329
+    },
+    {
+      "mode": "text",
+      "question": "A bar chart showing monthly energy consumption",
+      "expected_page": 2,
+      "retrieved_page": 2,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 0.03175791699322872
+    },
+    {
+      "mode": "text",
+      "question": "How quickly must severity-one alerts be acknowledged?",
+      "expected_page": 3,
+      "retrieved_page": 3,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 0.032659042000886984
+    },
+    {
+      "mode": "text",
+      "question": "How long are application logs retained?",
+      "expected_page": 3,
+      "retrieved_page": 3,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 0.0442983329994604
+    },
+    {
+      "mode": "visual",
+      "question": "Which region has the highest on-time delivery rate?",
+      "expected_page": 1,
+      "retrieved_page": 1,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 0.024241625011200085
+    },
+    {
+      "mode": "visual",
+      "question": "How many orders did the South region process?",
+      "expected_page": 1,
+      "retrieved_page": 1,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 0.030396665999433026
+    },
+    {
+      "mode": "visual",
+      "question": "Which month had the highest electricity usage?",
+      "expected_page": 2,
+      "retrieved_page": 2,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 0.03598829200200271
+    },
+    {
+      "mode": "visual",
+      "question": "A bar chart showing monthly energy consumption",
+      "expected_page": 2,
+      "retrieved_page": 2,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 0.039324042008956894
+    },
+    {
+      "mode": "visual",
+      "question": "How quickly must severity-one alerts be acknowledged?",
+      "expected_page": 3,
+      "retrieved_page": 3,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 0.038434500005678274
+    },
+    {
+      "mode": "visual",
+      "question": "How long are application logs retained?",
+      "expected_page": 3,
+      "retrieved_page": 1,
+      "reciprocal_rank": 0.5,
+      "latency_seconds": 0.07130283299193252
+    },
+    {
+      "mode": "hybrid",
+      "question": "Which region has the highest on-time delivery rate?",
+      "expected_page": 1,
+      "retrieved_page": 1,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 0.03301541699329391
+    },
+    {
+      "mode": "hybrid",
+      "question": "How many orders did the South region process?",
+      "expected_page": 1,
+      "retrieved_page": 1,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 0.03132920799544081
+    },
+    {
+      "mode": "hybrid",
+      "question": "Which month had the highest electricity usage?",
+      "expected_page": 2,
+      "retrieved_page": 2,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 0.032015040997066535
+    },
+    {
+      "mode": "hybrid",
+      "question": "A bar chart showing monthly energy consumption",
+      "expected_page": 2,
+      "retrieved_page": 2,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 0.04312808299437165
+    },
+    {
+      "mode": "hybrid",
+      "question": "How quickly must severity-one alerts be acknowledged?",
+      "expected_page": 3,
+      "retrieved_page": 3,
+      "reciprocal_rank": 1.0,
+      "latency_seconds": 0.028788166004233062
+    },
+    {
+      "mode": "hybrid",
+      "question": "How long are application logs retained?",
+      "expected_page": 3,
+      "retrieved_page": 1,
+      "reciprocal_rank": 0.5,
+      "latency_seconds": 0.026909708001767285
+    }
+  ],
+  "limitations": [
+    "Six hand-written questions over a fictional three-page report.",
+    "CLIP is a general image-text retriever, not a document OCR model; small text and numeric reasoning are weak points.",
+    "No generated-answer accuracy claim; this evaluates page retrieval only."
+  ]
+}
